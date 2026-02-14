@@ -51,8 +51,8 @@ Place a few test resumes (.pdf or .docx) into the resumes/ folder, then launch t
 
 streamlit run app.py
 # 📁 Project Structure
-Plaintext
-ai-resume-shortlister/
+#Plaintext
+#ai-resume-shortlister/
 │
 ├── app.py                   # Main Streamlit application and logic
 ├── resumes/                 # Directory to drop raw candidate resumes
