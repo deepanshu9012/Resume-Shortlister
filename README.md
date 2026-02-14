@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![LangChain](https://img.shields.io/badge/LangChain-Integration-green)
-![Gemini](https://img.shields.io/badge/Google_Gemini-1.5_Flash-orange)
+![Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Flash-orange)
 
 ## 📖 Overview
 The **AI Resume Shortlister** is an intelligent Applicant Tracking System (ATS) designed to automate the painful process of bulk resume screening. 
@@ -19,7 +19,7 @@ Instead of relying on rigid keyword matching (Ctrl+F), this tool leverages **Goo
 
 ## 🛠️ Tech Stack
 * **Frontend:** Streamlit
-* **AI/Orchestration:** LangChain, Google Gemini API (`gemini-1.5-flash`)
+* **AI/Orchestration:** LangChain, Google Gemini API (`gemini-2.5-flash`)
 * **Data Processing:** Pandas, Pydantic
 * **File Parsing:** `pypdf`, `python-docx`, `pytesseract`, `Pillow`
 
@@ -34,11 +34,11 @@ Instead of relying on rigid keyword matching (Ctrl+F), this tool leverages **Goo
 Clone the repository and install the required dependencies:
 
 
-git clone [https://github.com/](https://github.com/)<your-username>/ai-resume-shortlister.git
-cd ai-resume-shortlister
+git clone [https://github.com/](https://github.com/deepanshu9012/Resume-Shortlister.git
+cd Resume-Shortlister)
 
 pip install streamlit pandas pypdf python-docx langchain-google-genai langchain-core pydantic Pillow pytesseract
-3. Setup API Key
+### 3. Setup API Key
 You need to provide your Gemini API key to the application. Open app.py and replace the placeholder in the config section, or set it securely in your terminal before running:
 
 # On Windows
@@ -46,11 +46,11 @@ set GOOGLE_API_KEY="your_api_key_here"
 
 # On Mac/Linux
 export GOOGLE_API_KEY="your_api_key_here"
-4. Running the App
+## 4. Running the App
 Place a few test resumes (.pdf or .docx) into the resumes/ folder, then launch the Streamlit server:
 
 streamlit run app.py
-📁 Project Structure
+# 📁 Project Structure
 Plaintext
 ai-resume-shortlister/
 │
@@ -73,6 +73,3 @@ The Execution: Pandas iterates through the CSV database and applies strict mathe
 
 The Result: The UI displays only the perfect matches, avoiding the common LLM pitfall of "lazy searching" or skipping rows.
 
-
-
-http://googleusercontent.com/youtube_content/1
