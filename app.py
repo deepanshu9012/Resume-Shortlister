@@ -26,7 +26,7 @@ from pydantic import BaseModel, Field
 # ================= CONFIG =================
 
 # !!! PASTE YOUR GOOGLE API KEY HERE !!!
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAtnDl7QmUa8zKSd6pyOAPizQdaxk_w8oQ" 
+os.environ["GOOGLE_API_KEY"] = "Paste your API key here" 
 
 RESUME_DIR = "resumes"
 DATA_DIR = "data"
