@@ -35,7 +35,7 @@ Clone the repository and install the required dependencies:
 
 
 git clone [https://github.com/](https://github.com/deepanshu9012/Resume-Shortlister.git
-cd Resume-Shortlister)
+cd Resume-Shortlister
 
 pip install streamlit pandas pypdf python-docx langchain-google-genai langchain-core pydantic Pillow pytesseract
 ### 3. Setup API Key
